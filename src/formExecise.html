@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+    <label for="firstName">First Name:</label>
+    <input name="FIRST" id="firstname" type="text" placeholder="Jorge" required>
+    <label for="lastName">Last Name:</label>
+    <input name="LAST" id="lastName" type="text" placeholder="Topete" required>
+
+    <div>
+        <label for="Male">Male</label>
+        <input name="GENDER" id="Male" type="radio" value="MALE">
+        <label for="Female">Female</label>
+        <input name="GENDER" id="Female" type="radio" value="FEMALE">
+        <label for="Other">Other</label>
+        <input name="GENDER" id="Other" type="radio" value="OTHER">
+    </div>
+
+    <div>
+        <label for="Email">Email:</label>
+        <input name="EMAIL" id="Email" type="email" placeholder="your email" required>
+        <label for="Password">Password:</label>
+        <input name="PASSWORD" id="Password" type="password" pattern=".{5,10}" required title="5 to 10 characters minimum">
+    </div>
+
+    <div>
+        <label>Birthday:
+        <select name="Month">
+            <option>Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+        </select>
+        <select name="Day">
+            <option>Day</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+        </select>
+        <select name="Year">
+            <option>Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+        </select>
+        </label>
+    </div>
+
+    <div>
+        <label for="t&c">Do you agree with the terms and conditions?</label>
+        <input id="t&c" type="checkbox" required>
+    </div>
+
+    <div>
+        <input type="submit">
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+/*First 2 spaces are for red*/
+/*Next 2 spaces are for green*/
+/*Last 2 spaces are for blue*/
+body {
+
+  /*  background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-blue-earth-outer-space-background-image_154148.jpg) no-repeat;
+    background-size: cover; */
+}
+div {
+    background: #adb42d;
+}
+h1 {
+    color: rgb(200, 60, 300);
+
+    border: 3px solid #adb42d;
+}
+
+li {
+    color: darkgreen;
+}
+
+h4 {
+    background: #8bb433;
+    color: red;
+}
